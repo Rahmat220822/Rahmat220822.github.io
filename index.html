@@ -10,7 +10,7 @@
     <!-- My CSS -->
     <link rel="stylesheet" href="CSS/style.css" />
   </head>
-  <body>
+  <body id="home">
     <!-- navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow-sm">
       <div class="container">
@@ -21,7 +21,7 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#about">About</a>
@@ -88,7 +88,7 @@
                         <img src="img/html.png" class="card-img-top" alt="HTML">
                         <div class="card-body">
                           <p class="card-text">Rahmat Hidayat</p>
-                          <p class="card-text">ID Sertifikat : c2VydGlmaWthdC05Njg</p>
+                          <p class="card-text"><a href="Sertifikat/HTML.pdf" target="_blank" class="text-decoration-none">ID Sertifikat : c2VydGlmaWthdC05Njg</a></p>
                         </div>
                       </div>
                     </div>
@@ -97,7 +97,7 @@
                         <img src="img/css.png" class="card-img-top" alt="CSS">
                         <div class="card-body">
                             <p class="card-text">Rahmat Hidayat</p>
-                            <p class="card-text">ID Sertifikat : c2VydGlmaWthdC0xMDAy</p>
+                            <p class="card-text"><a href="Sertifikat/CSS.pdf" target="_blank" class="text-decoration-none">ID Sertifikat : c2VydGlmaWthdC0xMDAy</a></p>
                         </div>
                       </div>
                     </div>
@@ -106,7 +106,7 @@
                         <img src="img/js.png" class="card-img-top" alt="JavaScript">
                         <div class="card-body">
                             <p class="card-text">Rahmat Hidayat</p>
-                            <p class="card-text">ID Sertifikat : c2VydGlmaWthdC0xMDc5</p>
+                            <p class="card-text"><a href="Sertifikat/JavaScript.pdf" target="_blank" class="text-decoration-none">ID Sertifikat : c2VydGlmaWthdC0xMDc5</a></p>
                         </div>
                       </div>
                 </div>
@@ -132,7 +132,11 @@
                 </div>
                 <div class="mb-3">
                   <label for="email" class="form-label">Email</label>
-                  <input type="email" class="form-control" id="emailHelp">
+                  <input type="email" class="form-control" id="email">
+                </div>
+                <div class="mb-3">
+                  <label for="exampleFormControlTextarea1" class="form-label">Pesan</label>
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="2"></textarea>
                 </div>
                 <button type="submit" class="btn btn-primary">Kirim</button>
               </form></div>

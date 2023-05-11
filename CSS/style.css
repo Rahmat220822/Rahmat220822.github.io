@@ -13,19 +13,6 @@
   background-color: #e2edff;
 }
 
-.tombol {
-  width: 70px;
-  height: 70px;
-  display: flex;
-}
-
-#contact .container .icon {
-  display: flex;
-  justify-content: space-evenly;
-  padding-top: 10px;
-  padding-bottom: 100px;
-}
-
 .footer {
   height: 60px;
   display: flex;
@@ -39,4 +26,4 @@
 
 section {
   padding-top: 5rem;
-}/*# sourceMappingURL=style.css.map */
+} /*# sourceMappingURL=style.css.map */
